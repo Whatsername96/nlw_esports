@@ -7,7 +7,7 @@ interface HeaderProps extends ViewProps {
     subtitle: string,
 }
 
-export function Header({ title, subtitle, ...rest }: HeaderProps) {
+export function Heading({ title, subtitle, ...rest }: HeaderProps) {
     return (
         <View style={styles.container} {...rest}>
             <Text style={styles.title}>
